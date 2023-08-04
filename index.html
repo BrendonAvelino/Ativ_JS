@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Ativ JS</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+
+<body>
+    <header class="header">
+        <h1 class="titulo"> <b> Calculadora de Volumes </b> </h1>
+    </header>
+
+    <section class="sectionPrincipal">
+
+        <div onclick="retangulo()" class="retangulo">
+            <div class="imagemRet">
+                <img class="imgRet" src="imagens/formula-para-a-area-do-prisma-retangular.webp" alt="imagem Retagular">
+            </div>
+            <div class="textoRet">
+                <h1>Retângulo</h1>
+            </div>
+            <div class="volume">
+                <h2 id="retangulo" class="volume"></h2>
+            </div>
+        </div>
+
+
+        <div onclick="piramide()" class="triangulo">
+            <div class="imagemTri">
+                <img src="imagens/formula-para-o-volume-de-uma-piramide-retangular.webp" alt="imagem triangular">
+            </div>
+            <div class="textoTri">
+                <h1>Pirâmide</h1>
+            </div>
+            <div class="volume">
+                <h2 id="piramide" class="volume"></h2>
+            </div>
+        </div>
+
+
+        <div onclick="esfera()" class="circulo">
+            <div class="imagemCir">
+                <img src="imagens/Formulas-para-a-area-e-volume-de-uma-esfera.webp" alt="imagem circular">
+            </div>
+            <div class="textoCir">
+                <h1>Esfera</h1>
+            </div>
+            <div class="volume">
+                <h2 id="esfera" class="volume"></h2>
+            </div>
+        </div>
+
+
+        <div onclick="cone()" class="cone">
+            <div class="imagemP">
+                <img src="imagens/cone_radius_height.jpg" alt="imagem Prisma">
+            </div>
+            <div class="textoP">
+                <h1>Cone</h1>
+            </div>
+            <div class="volume">
+                <h2 id="cone" class="volume"></h2>
+            </div>
+        </div>
+
+
+        <div onclick="cilindro()" class="Cilindro">
+            <div class="imagemCilindro">
+                <img class="imgCil" src="imagens/formula-para-o-volume-do-cilindro.webp" alt="imagem Cilindro">
+            </div>
+            <div class="textoCilindro">
+                <h1>Cilindro</h1>
+            </div>
+            <div class="volume">
+                <h2 id="cilindro" class="volume"></h2>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
